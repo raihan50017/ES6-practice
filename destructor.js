@@ -1,0 +1,13 @@
+const person = {name: "Jack William", job: "facebooker", age: 17, gfName: "Jack Watsan", phone: "01231822090", friends: ["hashim", "kashim", "selim"]};
+// const gfName = person.gfName;
+// const phone = person.phone;
+// const { phone, gfName, friends } = person;
+// console.log(gfName, phone);
+// console.log(gfName, phone);
+// console.log(gfName, phone);
+// console.log(gfName, phone);
+// console.log(friends);
+const friends = ["rakib", "rabbi", "raihan"];
+const [first, ...rest]=friends;
+console.log(first);
+console.log(rest[0]);
